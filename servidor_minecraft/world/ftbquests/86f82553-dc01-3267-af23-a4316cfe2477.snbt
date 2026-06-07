@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "86f82553dc013267af23a4316cfe2477"
+	name: "RakanCharming#86f82553"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

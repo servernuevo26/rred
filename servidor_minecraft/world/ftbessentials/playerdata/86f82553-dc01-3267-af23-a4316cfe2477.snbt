@@ -1,0 +1,14 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	last_seen: { dim: "tcrcore:sanctum", x: -3, y: 75, z: -190, time: 1780852870003L, xRot: 0.0f, yRot: 0.0f }
+	recording: "none"
+	teleport_history: [
+		{ dim: "minecraft:overworld", x: 858, y: 79, z: 20, time: 1780853321371L }
+		{ dim: "minecraft:overworld", x: 853, y: 79, z: 21, time: 1780853402697L }
+	]
+	homes: { }
+	kit_use_times: { }
+}

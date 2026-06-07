@@ -1,0 +1,17 @@
+{
+	id: "86f82553-dc01-3267-af23-a4316cfe2477"
+	type: "player"
+	player_name: "RakanCharming"
+	ranks: {
+		86f82553-dc01-3267-af23-a4316cfe2477: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "RakanCharming"
+		"ftbteams:description": ""
+		"ftbteams:color": "#E559FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
