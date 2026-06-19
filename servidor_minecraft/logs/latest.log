@@ -1,0 +1,663 @@
+[18Jun2026 22:20:16.594] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18Jun2026 22:20:16.597] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[18Jun2026 22:20:25.302] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Jun2026 22:20:25.435] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/rred/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Jun2026 22:20:25.723] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/rred/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[18Jun2026 22:20:26.022] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/rred/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[18Jun2026 22:20:26.025] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/rred/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Jun2026 22:20:26.026] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/rred/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Jun2026 22:20:26.027] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/rred/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Jun2026 22:20:26.683] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/rred/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[18Jun2026 22:20:26.684] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[18Jun2026 22:20:29.726] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Jun2026 22:20:29.924] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
+[18Jun2026 22:20:30.182] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[18Jun2026 22:20:30.184] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[18Jun2026 22:20:30.188] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18Jun2026 22:20:30.453] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.21+mc1.20.1: 108 options available, 0 override(s) found
+[18Jun2026 22:20:30.460] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[18Jun2026 22:20:30.484] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[18Jun2026 22:20:30.520] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 140 options available, 0 override(s) found
+[18Jun2026 22:20:30.537] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 22:20:30.573] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 22:20:30.580] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 22:20:30.598] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 22:20:30.618] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 22:20:31.789] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[18Jun2026 22:20:31.790] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[18Jun2026 22:20:31.790] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[18Jun2026 22:20:33.017] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
+[18Jun2026 22:20:33.017] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg.mixins.json:PlayerAnimMixin
+[18Jun2026 22:20:33.494] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants$Key (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants$Key)
+[18Jun2026 22:20:33.589] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: java.util.ConcurrentModificationException
+[18Jun2026 22:20:33.590] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1597)
+[18Jun2026 22:20:33.591] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at java.base/java.util.HashMap$ValueIterator.next(HashMap.java:1625)
+[18Jun2026 22:20:33.591] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.computeLaunchPluginTransformerSet(LaunchPluginHandler.java:68)
+[18Jun2026 22:20:33.592] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:64)
+[18Jun2026 22:20:33.592] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[18Jun2026 22:20:33.592] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[18Jun2026 22:20:33.593] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[18Jun2026 22:20:33.593] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[18Jun2026 22:20:33.594] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[18Jun2026 22:20:33.594] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[18Jun2026 22:20:33.594] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[18Jun2026 22:20:33.595] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at TRANSFORMER/modernfix@5.27.21+mc1.20.1/org.embeddedt.modernfix.forge.config.NightConfigWatchThrottler$1.values(NightConfigWatchThrottler.java:37)
+[18Jun2026 22:20:33.595] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:162)
+[18Jun2026 22:20:33.601] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[18Jun2026 22:20:34.690] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (26.60 s after launch)
+[18Jun2026 22:20:35.220] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[18Jun2026 22:20:35.221] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[18Jun2026 22:20:37.217] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2505 milliseconds
+[18Jun2026 22:20:37.858] [main/WARN] [mixin/]: Method overwrite conflict for setBlockState in mmorpg.mixins.json:FallingBlockEntityMixin, previously written by com.github.alexmodguy.alexscaves.mixin.FallingBlockEntityMixin. Skipping method.
+[18Jun2026 22:20:38.432] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[18Jun2026 22:20:38.432] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[18Jun2026 22:20:39.739] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[18Jun2026 22:20:39.740] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[18Jun2026 22:20:39.740] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[18Jun2026 22:20:39.740] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[18Jun2026 22:20:39.794] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zkj000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18Jun2026 22:20:40.601] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[18Jun2026 22:20:40.720] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[18Jun2026 22:20:41.190] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
+[18Jun2026 22:20:41.191] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
+[18Jun2026 22:20:41.193] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
+[18Jun2026 22:20:41.193] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
+[18Jun2026 22:20:41.194] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
+[18Jun2026 22:20:41.195] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
+[18Jun2026 22:20:41.196] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Command Argument Types ...
+[18Jun2026 22:20:41.201] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
+[18Jun2026 22:20:41.206] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
+[18Jun2026 22:20:41.207] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entities Types ...
+[18Jun2026 22:20:41.217] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
+[18Jun2026 22:20:41.221] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
+[18Jun2026 22:20:41.222] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
+[18Jun2026 22:20:41.222] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
+[18Jun2026 22:20:41.227] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
+[18Jun2026 22:20:41.229] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
+[18Jun2026 22:20:41.233] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
+[18Jun2026 22:20:41.250] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC common config ...
+[18Jun2026 22:20:41.251] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
+[18Jun2026 22:20:41.264] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : the_harvest
+[18Jun2026 22:20:41.270] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
+[18Jun2026 22:20:41.278] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Client Network Message Handler ...
+[18Jun2026 22:20:41.293] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC client config ...
+[18Jun2026 22:20:41.362] [modloading-worker-0/INFO] [STDOUT/]: [com.robertx22.the_harvest.main.HarvestMain:<init>:229]: The Harvest loaded.
+[18Jun2026 22:20:41.630] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[18Jun2026 22:20:41.630] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[18Jun2026 22:20:41.630] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[18Jun2026 22:20:41.630] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[18Jun2026 22:20:41.630] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[18Jun2026 22:20:41.630] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[18Jun2026 22:20:41.630] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[18Jun2026 22:20:41.766] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : ancient_obelisks
+[18Jun2026 22:20:41.809] [modloading-worker-0/INFO] [STDOUT/]: [com.robertx22.ancient_obelisks.main.ObelisksMain:<init>:245]: Ancient Obelisks loaded.
+[18Jun2026 22:20:41.835] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[18Jun2026 22:20:41.838] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[18Jun2026 22:20:41.878] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: MCA Reborn detected, applying compat
+[18Jun2026 22:20:42.130] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[18Jun2026 22:20:42.695] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for trashslot:common (COMMON) with 5 properties.
+[18Jun2026 22:20:42.782] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : mmorpg
+[18Jun2026 22:20:42.867] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[18Jun2026 22:20:42.880] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[18Jun2026 22:20:43.034] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : dungeon_realm
+[18Jun2026 22:20:43.057] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[18Jun2026 22:20:43.074] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[18Jun2026 22:20:43.186] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[18Jun2026 22:20:43.188] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: CuriosCompat
+[18Jun2026 22:20:43.188] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: PlayerAnimatorCompat
+[18Jun2026 22:20:43.232] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[18Jun2026 22:20:43.233] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[18Jun2026 22:20:43.234] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[18Jun2026 22:20:43.235] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[18Jun2026 22:20:43.236] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[18Jun2026 22:20:43.238] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[18Jun2026 22:20:43.239] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[18Jun2026 22:20:43.263] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[18Jun2026 22:20:43.316] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[18Jun2026 22:20:43.322] [modloading-worker-0/INFO] [dungeon_realm/]: Dungeon Realm loaded.
+[18Jun2026 22:20:43.339] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[18Jun2026 22:20:43.340] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[18Jun2026 22:20:43.634] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[18Jun2026 22:20:43.635] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[18Jun2026 22:20:43.635] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[18Jun2026 22:20:43.639] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
+[18Jun2026 22:20:43.669] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : library_of_exile
+[18Jun2026 22:20:43.740] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[18Jun2026 22:20:45.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@4d687755 has been registered twice for the same name treechop:chop_wood.
+[18Jun2026 22:20:47.778] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[18Jun2026 22:20:47.779] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[18Jun2026 22:20:47.779] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[18Jun2026 22:20:47.779] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[18Jun2026 22:20:47.779] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[18Jun2026 22:20:47.779] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[18Jun2026 22:20:47.779] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[18Jun2026 22:20:47.779] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[18Jun2026 22:20:47.779] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[18Jun2026 22:20:47.781] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[18Jun2026 22:20:47.781] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[18Jun2026 22:20:47.782] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[18Jun2026 22:20:47.782] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[18Jun2026 22:20:47.782] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[18Jun2026 22:20:47.782] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[18Jun2026 22:20:47.782] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[18Jun2026 22:20:47.782] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[18Jun2026 22:20:47.782] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[18Jun2026 22:20:47.784] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[18Jun2026 22:20:47.784] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[18Jun2026 22:20:47.784] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[18Jun2026 22:20:47.784] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[18Jun2026 22:20:47.784] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[18Jun2026 22:20:47.784] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[18Jun2026 22:20:47.785] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[18Jun2026 22:20:47.785] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[18Jun2026 22:20:47.788] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[18Jun2026 22:20:47.788] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[18Jun2026 22:20:47.788] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[18Jun2026 22:20:47.788] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[18Jun2026 22:20:47.788] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[18Jun2026 22:20:47.788] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[18Jun2026 22:20:47.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[18Jun2026 22:20:47.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[18Jun2026 22:20:48.239] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[18Jun2026 22:20:48.239] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[18Jun2026 22:20:49.291] [main/WARN] [Easy NPC/]: [Custom Entity Data] Please define a custom index instead of using the auto-generated.
+[18Jun2026 22:20:49.295] [main/INFO] [Easy NPC/]: Register data serializers ...
+[18Jun2026 22:20:49.296] [main/INFO] [Easy NPC/]: - Registering Synched Attack Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.296] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[18Jun2026 22:20:49.296] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[18Jun2026 22:20:49.296] [main/INFO] [Easy NPC/]: - Registering Synched Attribute Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.296] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.297] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.297] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.297] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.297] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.297] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.297] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.297] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.298] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.298] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.298] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.298] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[18Jun2026 22:20:49.298] [main/INFO] [Easy NPC/]: - Registering Synched Navigation Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.298] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
+[18Jun2026 22:20:49.298] [main/INFO] [Easy NPC/]: - Registering Synched Owner Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.298] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
+[18Jun2026 22:20:49.298] [main/INFO] [Easy NPC/]: - Registering Synched Profession Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
+[18Jun2026 22:20:49.299] [main/INFO] [Easy NPC/]: - Registering Synched Render Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
+[18Jun2026 22:20:49.299] [main/INFO] [Easy NPC/]: - Registering Synched Skin Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[18Jun2026 22:20:49.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[18Jun2026 22:20:49.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[18Jun2026 22:20:49.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[18Jun2026 22:20:49.299] [main/INFO] [Easy NPC/]: - Registering Synched Sound Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
+[18Jun2026 22:20:49.300] [main/INFO] [Easy NPC/]: - Registering Synched Trading Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[18Jun2026 22:20:49.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[18Jun2026 22:20:49.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[18Jun2026 22:20:49.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[18Jun2026 22:20:49.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[18Jun2026 22:20:49.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[18Jun2026 22:20:49.300] [main/INFO] [Easy NPC/]: - Registering Synched Variant Data for EasyNPCBaseEntity.
+[18Jun2026 22:20:49.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
+[18Jun2026 22:20:49.321] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[18Jun2026 22:20:49.329] [main/INFO] [Easy NPC/]: Register model data serializers for ...
+[18Jun2026 22:20:49.329] [main/INFO] [Easy NPC/]: - Registering Synched Model Data for EasyNPCBaseModelEntity.
+[18Jun2026 22:20:49.329] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.329] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.329] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.329] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.329] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.330] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.330] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.330] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.330] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[18Jun2026 22:20:49.330] [main/INFO] [Easy NPC/]: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
+[18Jun2026 22:20:49.330] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[18Jun2026 22:20:49.330] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[18Jun2026 22:20:49.331] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[18Jun2026 22:20:49.331] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[18Jun2026 22:20:49.331] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[18Jun2026 22:20:49.331] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[18Jun2026 22:20:49.331] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[18Jun2026 22:20:49.331] [main/INFO] [Easy NPC/]: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
+[18Jun2026 22:20:49.331] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[18Jun2026 22:20:49.333] [main/INFO] [Easy NPC/]: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
+[18Jun2026 22:20:49.333] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.333] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.333] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.333] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.333] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.333] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.334] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.334] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.334] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.334] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.334] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[18Jun2026 22:20:49.334] [main/INFO] [Easy NPC/]: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
+[18Jun2026 22:20:49.334] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[18Jun2026 22:20:49.334] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[18Jun2026 22:20:49.335] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[18Jun2026 22:20:49.358] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.359] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.359] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.359] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.359] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.359] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.359] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.360] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:20:49.361] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.361] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.362] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.363] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:20:49.363] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.366] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.366] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:20:49.366] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.366] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:20:49.366] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:20:49.367] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.367] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.367] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.367] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.367] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.368] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.372] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.372] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.373] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.373] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.373] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:20:49.374] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:20:49.422] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[18Jun2026 22:20:49.453] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.453] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.453] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.453] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.453] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.453] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.453] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.454] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.454] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[18Jun2026 22:20:49.949] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@1f34e73f with version 21 ...
+[18Jun2026 22:20:50.100] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[18Jun2026 22:20:50.183] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
+[18Jun2026 22:20:50.322] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: common
+[18Jun2026 22:20:50.323] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: uncommon
+[18Jun2026 22:20:50.325] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: library_of_exile_item_requirement already exists as seriazable: is_map
+[18Jun2026 22:20:50.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[18Jun2026 22:20:51.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.2 Target: null
+[18Jun2026 22:20:51.027] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[18Jun2026 22:20:51.072] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[18Jun2026 22:20:51.073] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[18Jun2026 22:20:51.073] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[18Jun2026 22:20:51.074] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[18Jun2026 22:20:51.172] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[18Jun2026 22:20:51.220] [main/INFO] [journeymap/]: Initializing Packet Registries
+[18Jun2026 22:20:51.274] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[18Jun2026 22:20:51.275] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[18Jun2026 22:20:51.275] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[18Jun2026 22:20:51.275] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[18Jun2026 22:20:51.275] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[18Jun2026 22:20:51.275] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[18Jun2026 22:20:51.275] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[18Jun2026 22:20:51.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.15 Target: 20.2.15
+[18Jun2026 22:20:51.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[18Jun2026 22:20:51.724] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[18Jun2026 22:20:51.724] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[18Jun2026 22:20:51.745] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[18Jun2026 22:20:51.746] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[18Jun2026 22:20:51.747] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
+[18Jun2026 22:20:51.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.5.1 Target: null
+[18Jun2026 22:20:51.816] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[18Jun2026 22:20:51.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[18Jun2026 22:20:51.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[18Jun2026 22:20:52.066] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[18Jun2026 22:20:52.066] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[18Jun2026 22:20:52.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
+[18Jun2026 22:20:52.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[18Jun2026 22:20:52.149] [main/INFO] [epicfight/]: Data keys [epicfight:basic_attack_active, epicfight:combo_counter] for epicfight:basic_attack
+[18Jun2026 22:20:52.150] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:guard
+[18Jun2026 22:20:52.150] [main/INFO] [epicfight/]: Data keys [epicfight:last_active, epicfight:penalty, epicfight:parry_motion_counter, epicfight:penalty_restore_counter] for epicfight:parrying
+[18Jun2026 22:20:52.151] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:impact_guard
+[18Jun2026 22:20:52.151] [main/INFO] [epicfight/]: Data keys [epicfight:resisting_damage_type, epicfight:tick_record, epicfight:stacks] for epicfight:adaptive_skin
+[18Jun2026 22:20:52.151] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[18Jun2026 22:20:52.151] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:stacks] for epicfight:bonebreaker
+[18Jun2026 22:20:52.151] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record, epicfight:entity_id] for epicfight:vengeance
+[18Jun2026 22:20:52.151] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:fall_distance] for epicfight:meteor_slam
+[18Jun2026 22:20:52.152] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[18Jun2026 22:20:52.152] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[18Jun2026 22:20:52.152] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:jump_key_pressed_last_tick, epicfight:jump_count] for epicfight:phantom_ascent
+[18Jun2026 22:20:52.152] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[18Jun2026 22:20:52.152] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[18Jun2026 22:20:52.152] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[18Jun2026 22:20:52.152] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[18Jun2026 22:20:52.152] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[18Jun2026 22:20:52.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[18Jun2026 22:20:52.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Jun2026 22:20:52.262] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[18Jun2026 22:20:52.262] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[18Jun2026 22:20:52.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.21 Target: 17.1.21
+[18Jun2026 22:20:52.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[18Jun2026 22:20:52.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[18Jun2026 22:20:52.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/modding/main/versions/aquamirae.json
+[18Jun2026 22:20:52.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Found status: UP_TO_DATE Current: 6.4.0 Target: null
+[18Jun2026 22:20:52.479] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Jun2026 22:20:52.926] [main/INFO] [epicfight/]: Data keys [epicfight:basic_attack_active, epicfight:combo_counter] for epicfight:basic_attack
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:guard
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:last_active, epicfight:penalty, epicfight:parry_motion_counter, epicfight:penalty_restore_counter] for epicfight:parrying
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:impact_guard
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:resisting_damage_type, epicfight:tick_record, epicfight:stacks] for epicfight:adaptive_skin
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:stacks] for epicfight:bonebreaker
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record, epicfight:entity_id] for epicfight:vengeance
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:fall_distance] for epicfight:meteor_slam
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:jump_key_pressed_last_tick, epicfight:jump_count] for epicfight:phantom_ascent
+[18Jun2026 22:20:52.927] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[18Jun2026 22:20:52.928] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[18Jun2026 22:20:52.928] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[18Jun2026 22:20:52.928] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[18Jun2026 22:20:52.928] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[18Jun2026 22:20:53.031] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/rred/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23283!/assets/.mcassetsroot' uses unexpected schema
+[18Jun2026 22:20:53.032] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/rred/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23283!/data/.mcassetsroot' uses unexpected schema
+[18Jun2026 22:20:54.890] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[18Jun2026 22:20:56.685] [main/INFO] [Vinery/]: Registered /wine command
+[18Jun2026 22:20:56.686] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
+[18Jun2026 22:20:59.744] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_and_combat:entities/infernus}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[18Jun2026 22:20:59.744] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_and_combat:entities/pyro_knight}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[18Jun2026 22:20:59.745] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_and_combat:entities/lady_blaze}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[18Jun2026 22:20:59.745] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_and_combat:entities/lady_blaze}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[18Jun2026 22:20:59.745] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_and_combat:entities/pyro_knight}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[18Jun2026 22:20:59.745] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_and_combat:entities/lady_blaze}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[18Jun2026 22:20:59.745] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dungeons_and_combat:entities/infernus}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[18Jun2026 22:20:59.821] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_lightning_recipe_long_sword: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_lightning_ingot'
+[18Jun2026 22:21:00.068] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:wulfrum_uchigatana_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:wulfrum_ingot'
+[18Jun2026 22:21:00.070] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:amethyst_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.072] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:wulfrum_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:wulfrum_ingot'
+[18Jun2026 22:21:00.078] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_fire_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_fire_chestplate'
+[18Jun2026 22:21:00.079] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_bone_dagger_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.084] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_fire_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_fire_leggings'
+[18Jun2026 22:21:00.093] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:bronze_dragon_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_bronze_leggings'
+[18Jun2026 22:21:00.095] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:neptunium_leggings: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:neptunium_leggings'
+[18Jun2026 22:21:00.095] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:cobalt_dagger_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:cobalt_ingot'
+[18Jun2026 22:21:00.095] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_ice_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_ice_helmet'
+[18Jun2026 22:21:00.097] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_lightning_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_lightning_leggings'
+[18Jun2026 22:21:00.116] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_ice_lance_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:ice_dragon_blood'
+[18Jun2026 22:21:00.120] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dark_metal_boots: com.google.gson.JsonSyntaxException: Unknown item 'born_in_chaos_v1:dark_metal_armor_boots'
+[18Jun2026 22:21:00.122] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:tin_mace_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:tin_ingot'
+[18Jun2026 22:21:00.122] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_lightning_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_lightning_ingot'
+[18Jun2026 22:21:00.122] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:amethyst_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_amythest_leggings'
+[18Jun2026 22:21:00.123] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_ice_greatsword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:ice_dragon_blood'
+[18Jun2026 22:21:00.123] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_lightning_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_lightning_chestplate'
+[18Jun2026 22:21:00.123] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:cobalt_greataxe_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:cobalt_ingot'
+[18Jun2026 22:21:00.123] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:neptunium_dagger_recipe: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:neptunium_ingot'
+[18Jun2026 22:21:00.127] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:copper_dragon_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_copper_chestplate'
+[18Jun2026 22:21:00.132] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:copper_dragon_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_copper_boots'
+[18Jun2026 22:21:00.134] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_ice_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_ice_ingot'
+[18Jun2026 22:21:00.134] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:tin_greathammer_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:tin_ingot'
+[18Jun2026 22:21:00.134] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:red_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.138] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_fire_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_fire_ingot'
+[18Jun2026 22:21:00.139] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:tin_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:tin_ingot'
+[18Jun2026 22:21:00.142] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:white_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_white_chestplate'
+[18Jun2026 22:21:00.148] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dark_metal_helmet: com.google.gson.JsonSyntaxException: Unknown item 'born_in_chaos_v1:dark_metal_armor_helmet'
+[18Jun2026 22:21:00.153] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:neptunium_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:neptunium_chestplate'
+[18Jun2026 22:21:00.156] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:cobalt_long_sword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:cobalt_ingot'
+[18Jun2026 22:21:00.157] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:gray_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.166] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:cobalt_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:cobalt_ingot'
+[18Jun2026 22:21:00.167] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_bone_greatsword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.167] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:silver_dragon_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_silver_chestplate'
+[18Jun2026 22:21:00.168] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:wulfrum_rapier_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:wulfrum_ingot'
+[18Jun2026 22:21:00.169] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:sapphire_dragon_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.171] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:crystal_greatsword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:crystal_smithing_template'
+[18Jun2026 22:21:00.173] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:bronze_dragon_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_bronze_boots'
+[18Jun2026 22:21:00.179] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_lightning_lance_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:lightning_dragon_blood'
+[18Jun2026 22:21:00.198] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_fire_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_fire_boots'
+[18Jun2026 22:21:00.200] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:white_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.200] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_blazing_halberd: com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_mod_element'
+[18Jun2026 22:21:00.203] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:electric_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_electric_leggings'
+[18Jun2026 22:21:00.203] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_lightning_recipe_greatsword: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_lightning_ingot'
+[18Jun2026 22:21:00.205] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:blue_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_blue_leggings'
+[18Jun2026 22:21:00.206] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:neptunium_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:neptunium_ingot'
+[18Jun2026 22:21:00.207] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_ice_recipe_long_sword: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_ice_ingot'
+[18Jun2026 22:21:00.211] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_lightning_dagger_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:lightning_dragon_blood'
+[18Jun2026 22:21:00.214] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_lightning_recipe_katana: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_lightning_ingot'
+[18Jun2026 22:21:00.214] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_fire_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_fire_helmet'
+[18Jun2026 22:21:00.215] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:tin_dagger_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:tin_ingot'
+[18Jun2026 22:21:00.218] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:black_dragon_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.219] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:electrict_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_electric_boots'
+[18Jun2026 22:21:00.220] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:blue_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_blue_helmet'
+[18Jun2026 22:21:00.220] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:silver_dragon_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_silver_leggings'
+[18Jun2026 22:21:00.221] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:crystal_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:crystal_smithing_template'
+[18Jun2026 22:21:00.222] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_ice_dagger_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:ice_dragon_blood'
+[18Jun2026 22:21:00.222] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:white_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_white_boots'
+[18Jun2026 22:21:00.223] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_fire_recipe_katana: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_fire_ingot'
+[18Jun2026 22:21:00.224] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:bronze_dragon_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_bronze_chestplate'
+[18Jun2026 22:21:00.225] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_molten_bone_greatsword: com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_mod_element'
+[18Jun2026 22:21:00.236] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:neptunium_greatanchor_recipe: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:neptunium_ingot'
+[18Jun2026 22:21:00.237] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:sapphire_dragon_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_sapphire_helmet'
+[18Jun2026 22:21:00.239] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dark_metal_leggings: com.google.gson.JsonSyntaxException: Unknown item 'born_in_chaos_v1:dark_metal_armor_leggings'
+[18Jun2026 22:21:00.247] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:blue_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_blue_chestplate'
+[18Jun2026 22:21:00.248] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:copper_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.250] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:crystal_fist_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:crystal_smithing_template'
+[18Jun2026 22:21:00.251] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:green_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_green_boots'
+[18Jun2026 22:21:00.251] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_fire_greatsword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:fire_dragon_blood'
+[18Jun2026 22:21:00.251] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:black_dragon_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_black_helmet'
+[18Jun2026 22:21:00.251] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:green_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_green_chestplate'
+[18Jun2026 22:21:00.253] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:copper_dragon_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_copper_leggings'
+[18Jun2026 22:21:00.259] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:copper_dragon_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_copper_helmet'
+[18Jun2026 22:21:00.260] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:gray_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_gray_chestplate'
+[18Jun2026 22:21:00.262] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:black_dragon_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_black_leggings'
+[18Jun2026 22:21:00.262] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:silver_dragon_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_silver_helmet'
+[18Jun2026 22:21:00.263] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_lightning_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_lightning_boots'
+[18Jun2026 22:21:00.264] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:gray_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_gray_boots'
+[18Jun2026 22:21:00.271] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_fire_recipe_greatsword: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_fire_ingot'
+[18Jun2026 22:21:00.273] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:amethyst_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_amythest_chestplate'
+[18Jun2026 22:21:00.273] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_bone_lance_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.273] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:sapphire_dragon_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_sapphire_leggings'
+[18Jun2026 22:21:00.274] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_fire_recipe_long_sword: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_fire_ingot'
+[18Jun2026 22:21:00.274] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_ice_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_ice_chestplate'
+[18Jun2026 22:21:00.284] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:crystal_lance_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:crystal_smithing_template'
+[18Jun2026 22:21:00.288] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_lightning_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_lightning_helmet'
+[18Jun2026 22:21:00.288] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:gray_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_gray_helmet'
+[18Jun2026 22:21:00.289] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:blue_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.293] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:white_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_white_helmet'
+[18Jun2026 22:21:00.293] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:white_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_white_leggings'
+[18Jun2026 22:21:00.294] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_lightning_greatsword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:lightning_dragon_blood'
+[18Jun2026 22:21:00.294] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:green_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.295] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:amethyst_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_amythest_helmet'
+[18Jun2026 22:21:00.298] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:bronze_dragon_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_bronze_helmet'
+[18Jun2026 22:21:00.300] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_ice_recipe_greatsword: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_ice_ingot'
+[18Jun2026 22:21:00.300] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:sapphire_dragon_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_sapphire_chestplate'
+[18Jun2026 22:21:00.300] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:neptunium_helmet: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:neptunium_helmet'
+[18Jun2026 22:21:00.303] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:silver_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.303] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_fire_dagger_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:fire_dragon_blood'
+[18Jun2026 22:21:00.307] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:black_dragon_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_black_chestplate'
+[18Jun2026 22:21:00.307] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:red_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_red_chestplate'
+[18Jun2026 22:21:00.310] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:electric_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_electric_helmet'
+[18Jun2026 22:21:00.310] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:wulfrum_greatsword_recipe: com.google.gson.JsonSyntaxException: Unknown item 'tohiro_ores:wulfrum_ingot'
+[18Jun2026 22:21:00.310] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:green_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_green_leggings'
+[18Jun2026 22:21:00.314] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:gray_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_gray_leggings'
+[18Jun2026 22:21:00.315] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:black_dragon_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_black_boots'
+[18Jun2026 22:21:00.318] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:red_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_red_helmet'
+[18Jun2026 22:21:00.318] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:blue_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_blue_boots'
+[18Jun2026 22:21:00.318] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_ice_recipe_katana: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_ice_ingot'
+[18Jun2026 22:21:00.321] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_ice_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_ice_leggings'
+[18Jun2026 22:21:00.323] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:neptunium_boots: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:neptunium_boots'
+[18Jun2026 22:21:00.324] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:neptunium_trident_recipe: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:neptunium_ingot'
+[18Jun2026 22:21:00.327] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:silver_dragon_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_silver_boots'
+[18Jun2026 22:21:00.327] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:red_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_red_boots'
+[18Jun2026 22:21:00.331] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:green_helmet: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_green_helmet'
+[18Jun2026 22:21:00.334] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:amethyst_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_amythest_boots'
+[18Jun2026 22:21:00.334] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dark_metal_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'born_in_chaos_v1:dark_metal_armor_chestplate'
+[18Jun2026 22:21:00.337] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragonsteel_ice_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonsteel_ice_boots'
+[18Jun2026 22:21:00.338] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:sapphire_dragon_boots: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_sapphire_boots'
+[18Jun2026 22:21:00.338] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:electric_dragon_scales_shield: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.343] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:bronze_dragon_shield_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:dragonbone'
+[18Jun2026 22:21:00.348] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:red_leggings: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_red_leggings'
+[18Jun2026 22:21:00.348] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:electrict_chestplate: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:armor_electric_chestplate'
+[18Jun2026 22:21:00.349] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:dragon_fire_lance_recipe: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:fire_dragon_blood'
+[18Jun2026 22:21:00.354] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
+[18Jun2026 22:21:00.465] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[18Jun2026 22:21:00.502] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3812 advancements
+[18Jun2026 22:21:00.951] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[18Jun2026 22:21:00.954] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[18Jun2026 22:21:01.093] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:uchigatana
+[18Jun2026 22:21:01.095] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:silver_sword: Can't find weapon type: ba_tweaks:sword
+[18Jun2026 22:21:01.096] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:rusty_claymore
+[18Jun2026 22:21:01.097] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:spear
+[18Jun2026 22:21:01.098] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:diamond_spear
+[18Jun2026 22:21:01.100] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:sickle
+[18Jun2026 22:21:01.100] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:iron_sickle
+[18Jun2026 22:21:01.102] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:iron_twin_blade
+[18Jun2026 22:21:01.103] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:claymore
+[18Jun2026 22:21:01.103] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:rusty_sword
+[18Jun2026 22:21:01.103] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:sandstone_axe_war: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.104] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:dragon_lance_bone: Can't find weapon type: cdmoveset:s_spear
+[18Jun2026 22:21:01.104] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:copper_axe_war: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.104] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:diamond_longsword
+[18Jun2026 22:21:01.105] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:heavy_hammer: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.105] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:saw_cleaver_sickle: Can't find weapon type: ba_tweaks:sword
+[18Jun2026 22:21:01.105] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:blessed_gold_axe_war: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.106] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:morning_star_mace: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.106] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:old_axe: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.106] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:diamond_tachi
+[18Jun2026 22:21:01.107] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:iron_mace: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.107] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:stone_mace: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.108] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:glove
+[18Jun2026 22:21:01.109] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:kopesh_sickle
+[18Jun2026 22:21:01.110] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:
+[18Jun2026 22:21:01.111] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:blacksmith_hammer: Can't find weapon type: ba_tweaks:hammer
+[18Jun2026 22:21:01.111] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:katana
+[18Jun2026 22:21:01.111] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:diamond_dagger
+[18Jun2026 22:21:01.111] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:blessed_gold_claws
+[18Jun2026 22:21:01.112] [main/WARN] [epicfight/]: Item Capability Exception: No item named dungeons_and_combat:diamond_greatsword
+[18Jun2026 22:21:01.113] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:deserter_steel_sword: Can't find weapon type: ba_tweaks:sword
+[18Jun2026 22:21:01.113] [main/WARN] [epicfight/]: Error while deserializing datapack for dungeons_and_combat:royal_steel_sword: Can't find weapon type: ba_tweaks:sword
+[18Jun2026 22:21:01.205] [main/INFO] [Dungeon Crawl/]: Loading data...
+[18Jun2026 22:21:01.417] [main/INFO] [Dungeon Crawl/]: Done.
+[18Jun2026 22:21:02.098] [main/WARN] [ModernFix/]: Initial datapack load took 9.025 s
+[18Jun2026 22:21:02.590] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Jun2026 22:21:02.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Jun2026 22:21:02.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Jun2026 22:21:02.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Jun2026 22:21:02.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Jun2026 22:21:02.753] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Jun2026 22:21:02.874] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Jun2026 22:21:02.875] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Jun2026 22:21:02.876] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Jun2026 22:21:02.877] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Jun2026 22:21:02.922] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Jun2026 22:21:02.924] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
+[18Jun2026 22:21:02.925] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ENTITY_SUMMON_BLACKLIST was corrected from [minecraft:allay, minecraft:armor_stand] to its default, [minecraft:allay, minecraft:armor_stand]. 
+[18Jun2026 22:21:03.032] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/rred/servidor_minecraft/world/dimensions/the_harvest/harvest - If this is a the_harvest:harvest dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[18Jun2026 22:21:03.033] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[18Jun2026 22:21:03.059] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/rred/servidor_minecraft/world/dimensions/ancient_obelisks/obelisk - If this is a ancient_obelisks:obelisk dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[18Jun2026 22:21:03.059] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[18Jun2026 22:21:03.074] [Server thread/INFO] [Framework/]: Loading server configs...
+[18Jun2026 22:21:03.103] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/rred/servidor_minecraft/world/dimensions/dungeon_realm/dungeon - If this is a dungeon_realm:dungeon dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[18Jun2026 22:21:03.103] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[18Jun2026 22:21:03.742] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[18Jun2026 22:21:03.743] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[18Jun2026 22:21:03.747] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Jun2026 22:21:04.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Jun2026 22:21:05.427] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jun2026 22:21:05.428] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jun2026 22:21:05.614] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jun2026 22:21:06.111] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[18Jun2026 22:21:07.558] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[18Jun2026 22:21:07.558] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[18Jun2026 22:21:07.596] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[18Jun2026 22:21:08.016] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3421 ms
+[18Jun2026 22:21:08.023] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.124s)! For help, type "help"
+[18Jun2026 22:21:08.176] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Jun2026 22:21:08.347] [Server thread/WARN] [ModernFix/]: Dedicated server took 60.258 seconds to load
+[18Jun2026 22:50:18.625] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RakanCharming[/127.248.185.103:53123] logged in with entity id 138 at (373.02170577031757, 87.0, -1351.2276867230214)
+[18Jun2026 22:50:18.762] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player RakanCharming
+[18Jun2026 22:50:18.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RakanCharming joined the game
+[18Jun2026 22:51:43.967] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.968] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.968] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.968] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.968] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.969] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.969] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.969] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:51:43.969] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.970] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.970] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.970] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.970] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.971] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.971] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.971] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.971] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.971] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.972] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.972] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:51:43.972] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.972] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.973] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:51:43.973] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.973] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:51:43.973] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[18Jun2026 22:51:43.973] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.973] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.974] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.974] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.974] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.974] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.974] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.975] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.975] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.975] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:51:43.975] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[18Jun2026 22:55:33.960] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element dungeons_and_combat:the_tower_of_eldrich took 89 ms
+[18Jun2026 22:55:41.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [RakanCharming: Teleported RakanCharming to -927.500000, 68.952781, -2815.500000]
+[18Jun2026 22:55:41.076] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4778ms or 95 ticks behind
+[18Jun2026 22:57:43.976] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[18Jun2026 22:58:06.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RakanCharming moved too quickly! -6.545850553517994,0.0,8.427829864482192
+[18Jun2026 22:58:11.189] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RakanCharming moved too quickly! -0.4387379698323457,-10.25523840546819,0.31969486620300813
+[18Jun2026 23:00:20.672] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element dungeons_and_combat:the_tower_of_eldrich took 29 ms
+[18Jun2026 23:00:23.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [RakanCharming: Teleported RakanCharming to -927.500000, 134.382823, -2815.500000]
+[18Jun2026 23:00:35.968] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element dungeons_and_combat:the_catacumbs_lugubrious took 146 ms
+[18Jun2026 23:00:42.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [RakanCharming: Teleported RakanCharming to -1503.500000, 134.382823, -799.500000]
+[18Jun2026 23:00:42.808] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4460ms or 89 ticks behind
+[18Jun2026 23:02:44.603] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element dungeons_arise_seven_seas:victory_frigate took 335 ms
+[18Jun2026 23:02:51.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [RakanCharming: Teleported RakanCharming to 1184.500000, 70.000000, 48.500000]
+[18Jun2026 23:02:51.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4434ms or 88 ticks behind
+[18Jun2026 23:04:21.459] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RakanCharming lost connection: Disconnected
+[18Jun2026 23:04:21.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RakanCharming left the game
+[18Jun2026 23:04:21.519] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[18Jun2026 23:04:43.521] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RakanCharming[/127.248.185.103:50169] logged in with entity id 12376 at (1170.7870716212067, 90.7266746340671, 40.590347537460474)
+[18Jun2026 23:04:43.588] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player RakanCharming
+[18Jun2026 23:04:43.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RakanCharming joined the game
+[18Jun2026 23:05:58.627] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RakanCharming lost connection: Timed out
+[18Jun2026 23:05:58.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RakanCharming left the game
+[18Jun2026 23:06:49.303] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@3792068e[id=<null>,name=RakanCharming,properties={},legacy=false] (/127.248.185.103:40727): Took too long to log in
+[18Jun2026 23:06:49.304] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3792068e[id=<null>,name=RakanCharming,properties={},legacy=false] (/127.248.185.103:40727) lost connection: Took too long to log in
+[18Jun2026 23:06:49.349] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[18Jun2026 23:49:12.964] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RakanCharming[/127.248.185.103:40243] logged in with entity id 14293 at (1708.9664001584995, 97.16610926093821, -318.42145785164274)
+[18Jun2026 23:49:13.052] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player RakanCharming
+[18Jun2026 23:49:13.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RakanCharming joined the game
+[18Jun2026 23:52:30.621] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RakanCharming lost connection: Disconnected
+[18Jun2026 23:52:30.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RakanCharming left the game
